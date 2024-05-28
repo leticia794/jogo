@@ -20,3 +20,28 @@ f7 = "         +|          "
       f5 = "      |       /  "
       
    if tentativa >= 5: 
+
+
+
+
+
+console.log(soma (5,9));
+function soma(v1 ,v2){
+    return v1+v2;
+}
+
+function nomeidade(nome , idade){
+console.log(`nome:${nome} - idade:${idade})`);
+}
+
+nomeidade("leticia","22")
+nomeidade("laticia","38")
+
+console.log(soma(1));
+
+nomeidade("cavalcante");
+
+soma(v1=v2)
+multiplicacao(1358 , 86)
+multiplicacao(soma(3,5),soma(8,7)); 
+A
