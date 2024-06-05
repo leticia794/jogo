@@ -45,3 +45,66 @@ soma(v1=v2)
 multiplicacao(1358 , 86)
 multiplicacao(soma(3,5),soma(8,7)); 
 A
+
+
+
+def forca(tentativa):
+
+    f1 = "         +--------+  "
+    f2 = "         +|          "
+    f3 = "         +|          "
+    f4 = "         +|          "
+    f5 = "         +|          "
+    f6 = "         +|          "
+    
+    if tentativa >= 1:
+      f1 = "      |       o   "
+        
+    if tentativa >= 2:  
+        f2 = "      |       |  "
+            
+    if tentativa >= 3:
+        f3 = "      |      /|  "
+        
+    if tentativa >= 4:
+        f4 = "      |      /|\ "
+        
+    if tentativa >= 5:    
+        f5 = "       |     /  "
+
+    if tentativa >= 6:    
+        f6 = "       |     /\ "
+
+    print(f1)
+    print(f2)
+    print(f3)
+    print(f4)
+    print(f5)
+    print(f6)
+       
+def continua():
+    while True:
+        print("-" * 20)
+        novamente = input(" quer jogar novamente: S/N").Upper()
+        acabou = False
+        break
+    else:
+        print("digite S ou N ")
+        forca(0)
+
+def sorteiapalavra():
+   lista=["amor","ola","tudo bem","tchau"]
+   return random.choice(lista)
+
+import random
+print(sorteiapalavra)
+
+def apresentapalavra(letras,palavras):
+    npalavra="_" * len(palavras)
+    print(apresentapalavra("ab","amor"))
+
+    print(apresentapalavra("ab","abacaxi"))
+    for L in range(len(palavras)):
+        print(letras[L])
+        
+    
